@@ -1,6 +1,6 @@
 import cx from 'classnames';
 import React from 'react';
-import { Button } from 'antd'
+import { Button } from 'antd';
 
 import styles from './styles.module.less';
 
@@ -26,6 +26,7 @@ export const MasterLayout: React.FC<IProps> = (props) => (
     )}
     style={props.style}
   >
+    {/* eslint-disable-next-line max-len */}
     {/* <Button block className="test"> if uncommented then refresh it works but not block?</Button> */}
     <div
       className={cx(styles['layout-container'], 'g-layout-container--master')}
